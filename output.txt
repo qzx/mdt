@@ -1,0 +1,41 @@
+(main) expert@expert-cws:~/src/qzx/mdt$ python3 nx.py 
+<?xml version="1.0" encoding="UTF-8"?>
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+    <eventTime>2022-10-05T17:12:21.648+00:00</eventTime>
+    <operation>modified</operation>
+    <event>
+        <System xmlns="http://cisco.com/ns/yang/cisco-nx-os-device">
+            <intf-items>
+                <phys-items>
+                    <PhysIf-list>
+                        <id>eth1/1</id>
+                        <phys-items>
+                            <operSt>link-up</operSt>
+                        </phys-items>
+                    </PhysIf-list>
+                </phys-items>
+            </intf-items>
+        </System>
+    </event>
+</notification>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<notification xmlns="urn:ietf:params:xml:ns:netconf:notification:1.0">
+    <eventTime>2022-10-05T17:12:21.707+00:00</eventTime>
+    <operation>modified</operation>
+    <event>
+        <System xmlns="http://cisco.com/ns/yang/cisco-nx-os-device">
+            <intf-items>
+                <phys-items>
+                    <PhysIf-list>
+                        <id>eth1/1</id>
+                        <phys-items>
+                            <operSt>down</operSt>
+                        </phys-items>
+                    </PhysIf-list>
+                </phys-items>
+            </intf-items>
+        </System>
+    </event>
+</notification>
+

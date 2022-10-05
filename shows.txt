@@ -1,0 +1,178 @@
+switch# show telemetry data collector details  
+
+--------------------------------------------------------------------------------
+Row ID         Successful     Failed         Skipped        Sensor Path(GroupId)
+--------------------------------------------------------------------------------
+switch# show telemetry data collector details 
+
+--------------------------------------------------------------------------------
+Row ID         Successful     Failed         Skipped        Sensor Path(GroupId)
+--------------------------------------------------------------------------------
+switch# show grpc internal gnmi subscription statistics  
+--------------------------------------------------------------------------------
+Summary
+--------------------------------------------------------------------------------
+  Subscription errors    : 0
+
+--------------------------------------------------------------------------------
+Pipeline Statistics
+--------------------------------------------------------------------------------
+Main Statistics:
+    Timers:
+        Errors:
+            Start Fail        =     0
+
+    Data Collector:
+        Errors:
+            Node Create Fail  =     0
+
+    Event Collector:
+        Subscriptions    =     0
+        Errors:
+            Node Create Fail  =     0    Node Add Fail     =     0
+            Invalid Data      =     0
+
+    Memory:
+        Allowed Memory Limit                = 2899102924 bytes
+        Occupied Memory                     = 1263509504 bytes
+
+Queue Statistics:
+    Request Queue:
+        High Priority Queue:
+            Info:
+                Actual Size       =  5000    Current Size      =     0
+                Max Size          =     0    Full Count        =     0
+
+            Errors:
+                Enqueue Error     =     0    Dequeue Error     =     0
+
+        Low Priority Queue:
+            Info:
+                Actual Size       =  5000    Current Size      =     0
+                Max Size          =     0    Full Count        =     0
+
+            Errors:
+                Enqueue Error     =     0    Dequeue Error     =     0
+
+    Data Queue:
+        High Priority Queue:
+            Info:
+                Actual Size       = 160000    Current Size      =     0
+                Max Size          =     0    Full Count        =     0
+
+            Errors:
+                Enqueue Error     =     0    Dequeue Error     =     0
+
+        Low Priority Queue:
+            Info:
+                Actual Size       =  5000    Current Size      =     0
+                Max Size          =     0    Full Count        =     0
+
+            Errors:
+                Enqueue Error     =     0    Dequeue Error     =     0
+
+
+--------------------------------------------------------------------------------
+Control Statistics
+--------------------------------------------------------------------------------
+show telemetry control stats entered
+
+--------------------------------------------------------------------------------
+Error Description                                            Error Count 
+--------------------------------------------------------------------------------
+Chunk allocation failures                                    0
+Sensor path Database chunk creation failures                 0
+Sensor Group Database chunk creation failures                0
+Destination Database chunk creation failures                 0
+Destination Group Database chunk creation failures           0
+Subscription Database chunk creation failures                0
+Sensor path Database creation failures                       0
+Sensor Group Database creation failures                      0
+Destination Database creation failures                       0
+Destination Group Database creation failures                 0
+Subscription Database creation failures                      0
+Sensor path Database insert failures                         0
+Sensor Group Database insert failures                        0
+Destination Database insert failures                         0
+Destination Group Database insert failures                   0
+Subscription insert to Subscription Database failures        0
+Sensor path Database delete failures                         0
+Sensor Group Database delete failures                        0
+Destination Database delete failures                         0
+Destination Group Database delete failures                   0
+Delete Subscription from Subscription Database failures      0
+Sensor path delete in use                                    0
+Sensor Group delete in use                                   0
+Destination delete in use                                    0
+Destination Group delete in use                              0
+Delete destination(in use) failure count                     0
+Sensor path Sensor Group list creation failures              0
+Sensor path prop list creation failures                      0
+Sensor path sec Sensor path list creation failures           0
+Sensor path sec Sensor Group list creation failures          0
+Sensor Group Sensor path list creation failures              0
+Sensor Group Sensor subs list creation failures              0
+Destination Group subs list creation failures                0
+Destination Group Destinations list creation failures        0
+Destination Destination Groups list creation failures        0
+Subscription Sensor Group list creation failures             0
+Subscription Destination Groups list creation failures       0
+Sensor Group Sensor path list delete failures                0
+Sensor Group Subscriptions list delete failures              0
+Sensor Group Subscriptions unsupported data-source failures  0
+Destination Group Subscriptions list delete failures         0
+Destination Group Destinations list delete failures          0
+Subscription Sensor Groups list delete failures              0
+Subscription Destination Groups list delete failures         0
+Destination Destination Groups list delete failures          0
+Failed to delete Destination from Destination Group          0
+Failed to delete Destination Group from Subscription         0
+Failed to delete Sensor Group from Subscription              0
+Failed to delete Sensor path from Sensor Group               0
+Failed to get encode callback                                0
+Failed to get transport callback                             0
+
+--------------------------------------------------------------------------------
+Data Collector Brief
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Row ID         Collector Type       Successful        Failed            Skipped          
+--------------------------------------------------------------------------------
+1              YANG                 0                 0                 0                
+2              DME                  0                 0                 0                
+3              NX-API               0                 0                 0                
+
+--------------------------------------------------------------------------------
+Data Collector Details
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Row ID         Successful     Failed         Skipped        Sensor Path(GroupId)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Event Collector Details
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Row ID         Collection Count  Latest Collection Time     Sensor Path(GroupId)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Event Collector Errors
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Error Description                                  Error Count 
+--------------------------------------------------------------------------------
+Dme Event Subscription Init Failures               - 0
+Event Data Enqueue Failures                        - 0
+Event Subscription Failures                        - 0
+Pending Subscription List Create Failures          - 0
+Subscription Hash Table Create Failures            - 0
+Subscription Hash Table Destroy Failures           - 0
+Subscription Hash Table Insert Failures            - 0
+Subscription Hash Table Remove Failures            - 0
+switch# 
+
